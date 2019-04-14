@@ -1,5 +1,6 @@
 const Discord = require('discord.js')
 const Pix = new Discord.Client();
+const settings = require("./settings.json")
 
 Pix.on("message", message => {
     if (message.author.bot) return;
