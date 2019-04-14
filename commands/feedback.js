@@ -12,7 +12,7 @@ module.exports.run = async (pix, message, args) => {
 
     let feedEmbed = new Discord.RichEmbed()
     .setDescription("Reports")
-    .setColor(orange)
+   
     .addField("Feedback message", `${fedback}`)
     .addField("Feedback By", `${message.author} with ID: ${message.author.id}`)
 
