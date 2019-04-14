@@ -1,0 +1,28 @@
+{
+  "//1": "Pixelspix V2",
+  "//2": "Pixelspix V2 needs to the discord.js package",
+  "//3": "Pixelspix V2 is a bot XD",
+  "name": "Pixelspix V2",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "PixelspixSystem.js",
+  "scripts": {
+    "start": "node PixelspixSystem.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "node-opus": "^0.3.0",
+    "sleep": "^5.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/ThatPhoenix/PixelspixV2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
