@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 
-module.exports.run = async (pix, message, args) => {
+module.exports.run = async (Pix, message, args) => {
     message.delete();
     if(args[0] == "help"){
       message.reply("Usage: !feedback <Your feedback here>");
@@ -18,9 +18,9 @@ module.exports.run = async (pix, message, args) => {
 
     .addField("Time", message.createdAt)
 
-    let reportschannel = Pix.channels.get("567064651423023141").send(feedEmbed)
+    let feedchannel = Pix.channels.get("567064651423023141").send(feedEmbed)
     message.channel.send("Your message has been delivered to the Pixelspix V2 Developer Feedback Channel and will be read by one of our admin/developers");
-    reportschannel.send(reportEmbed);
+    feedchannel.send(feedEmbed);
 
 }
 
