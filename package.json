@@ -1,8 +1,8 @@
 {
-  "//1": "Pixelspix V2",
-  "//2": "Pixelspix V2 needs to the discord.js package",
-  "//3": "Pixelspix V2 is a bot XD",
-  "name": "Pixelspix V2",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "PixelspixSystem.js",
@@ -18,7 +18,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://github.com/ThatPhoenix/PixelspixV2"
+    "url": "https://github.com/coolpixire/PixAssistant"
   },
   "license": "MIT",
   "keywords": [
