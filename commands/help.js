@@ -3,9 +3,8 @@ const Discord = require('discord.js');
 exports.run = function(Pix, message, args) {
   var PixelspixEmbed = new Discord.RichEmbed();
     PixelspixEmbed.setTitle('Pixelspix Help')
-  PixelspixEmbed.setDescription(`Under developement`)
+  PixelspixEmbed.setDescription(":rofl: | **Fun Commands **: `say` ` \n:information_source: | **Info commands:** `credits`  `ping` `invite`  :floppy_disk: | **Utility commands** `feedback`")
   PixelspixEmbed.setColor('#FF000');
-  PixelspixEmbed.setImage(`${Pix.user.displayAvatarURL}`)
   PixelspixEmbed.setThumbnail(`${Pix.user.displayAvatarURL}`)
 
   message.channel.send(PixelspixEmbed);
