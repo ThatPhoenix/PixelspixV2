@@ -2,6 +2,8 @@ const Discord = require('discord.js');
 const Pix = new Discord.Client();
 const settings = require("./settings.json")
 
+Pix.user.setActivity(`Pixelspix V2 Boot Sequence Completed.`, {type: "PLAYING"});
+
 Pix.on("message", message => {
     if (message.author.bot) return;
     if(message.content.indexOf(settings.prefix) !== 0) return;
