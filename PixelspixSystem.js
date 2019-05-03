@@ -9,7 +9,7 @@ Pix.on("message", message => {
     const args = message.content.slice(settings.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
     try {
-      let commandFile = require(`./commands/${command}.js`);
+      let commandFile = require(`./comands/${command}.js`);
       commandFile.run(Pix, message, args);
     } catch (err) {
            message.reply(`:x: | Pixelspix Error! **${err}**`)
