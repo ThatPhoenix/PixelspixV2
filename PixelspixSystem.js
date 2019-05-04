@@ -3,7 +3,7 @@ const Pix = new Discord.Client();
 const settings = require("./settings.json")
 
 Pix.on("ready", async () => {
-Pix.user.setActivity(`Pixelspix V2 Boot Sequence Completed.`)
+Pix.user.setActivity(`!Help | Pixelspix V2`)
 });
 
 Pix.on("message", message => {
